@@ -80,7 +80,7 @@ const changeLanguage = (language) => {
     contactTitle.innerHTML = "Contact me";
     aboutKnowMoreDescription.innerHTML = "Currently working a Remote Dev."
     worksTitle.innerHTML = "Works"+ "</br>" ;
-    subtitleWorks.innerHTML = "my portfolio";
+    subtitleWorks.innerHTML = "";
     cv.href = "./cv/Cv_Ing_JustoG_Eng.pdf";
     description_me.innerHTML = "I handle technologies like Php, mysql, codeigniter, laravel, prestashop, wordpress, react, node, javascript, trello, jira, figma, etc.";
     } else {
@@ -96,7 +96,7 @@ const changeLanguage = (language) => {
     knowMoreAbout.innerHTML = "Más > ";
     contactTitle.innerHTML = "Contáctame";
     aboutKnowMoreDescription.innerHTML = "Actualmente, trabajo como Desarrollador Web en forma Remota";
-    subtitleWorks.innerHTML = "mi Portafolio";
+    subtitleWorks.innerHTML = "";
     cv.href = "./cv/Cv_Ing_JustoG_Esp.pdf";
     description_me.innerHTML = "Manejo tecnologias como Php, mysql, codeigniter, laravel, prestashop, wordpress, react, node, javascript, trello, jira, figma, etc.";
   }

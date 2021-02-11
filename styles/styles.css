@@ -751,7 +751,7 @@ html {
 	}
 	.subLine2 {
 		position: relative;
-		top: 170px;
+		top: 3%;
 	}
 	.knowMoreAbout {
 		position: relative;
@@ -1017,6 +1017,13 @@ html {
 }
 
 @media only screen and (max-width: 900px) {
+	.subtitleContact {
+			left: 10%!important;
+		
+	}
+	-fp-controlArrow{
+		top: 52%!important;
+	}
 	.projectSlide p {
 		width: 55%;
 		margin-left: 23%;
@@ -1043,10 +1050,10 @@ html {
 		visibility: hidden;
 	}
 	.projectSlide p {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	.projectSlide {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	.worksRightSection {
 		position: absolute;
@@ -1224,6 +1231,7 @@ html {
   }
 	.numberContact {
 		font-size: 3rem;
+		margin-bottom: 5%;
 	}
 }
 /*# sourceMappingURL=styles.css.map */
