@@ -69,7 +69,7 @@ const changeLanguage = (language) => {
   if (language === "english") {
     descriptionHero.innerHTML = "Passionate about web/frontend/backend";
     homeNavlink.innerHTML = "<a href='" + "#homeSection" + "'>HOME</a>";
-    aboutNavlink.innerHTML = "<a href='" + "#aboutSection" + "'>SKILLS</a>";
+    aboutNavlink.innerHTML = "<a href='" + "#aboutSection" + "'>ABOUT ME</a>";
     worksNavlink.innerHTML = "<a href='" + "#worksSection" + "'>WORKS</a>";
     contactNavlink.innerHTML =
       "<a href='" + "#contactSection" + "'>CONTACT</a>";
