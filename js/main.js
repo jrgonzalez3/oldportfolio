@@ -76,7 +76,7 @@ const changeLanguage = (language) => {
     scrollDown.innerHTML = "scrolldown";
     aboutTitle.innerHTML = "About me";
     subtitleAbout.innerHTML = "Web Developer";
-    knowMoreAbout.innerHTML = "Know more > ";
+    knowMoreAbout.innerHTML = "More > ";
     contactTitle.innerHTML = "Contact me";
     aboutKnowMoreDescription.innerHTML = "Currently working a Remote Dev."
     worksTitle.innerHTML = "Works"+ "</br>" ;
